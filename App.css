@@ -1,18 +1,136 @@
-.card {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* AdminServices.css */
+
+/* Basic container styles */
+.container {
+  max-width: 800px; /* Limit width for better readability */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add some padding */
 }
 
-.card-img-top {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+/* Header styles */
+h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
 }
 
-.card-body {
-  text-align: center;
+/* Form styles */
+.custom-border {
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the form */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.card-footer {
-  display: flex;
-  justify-content: center;
+/* Table container styles */
+.table-container {
+  border: 1px solid #ddd; /* Light gray border for table container */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background for the table */
+  padding: 20px; /* Padding inside the table container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Table styles */
+.table {
+  width: 100%; /* Full width table */
+  margin-top: 20px; /* Space above the table */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+.table th,
+.table td {
+  padding: 10px; /* Padding for cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Border between cells */
+}
+
+.table th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text color for header */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra stripe effect */
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef; /* Light gray on hover */
+}
+
+/* Button styles */
+.btn {
+  margin-right: 10px; /* Space between buttons */
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  color: white; /* White text */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary button color */
+  color: white; /* White text */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Danger button color */
+  color: white; /* White text */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .table th,
+  .table td {
+    padding: 5px; /* Reduce padding in table cells */
+  }
+}
+/* AdminServices.css */
+
+.custom-border {
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+.table-container {
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+.form-label {
+  font-weight: bold; /* Make the label text bold */
+  margin-bottom: 5px; /* Space below the label */
+}
+
+.form-control {
+  margin-bottom: 15px; /* Space between the input field and the next element */
+}
+
+.custom-table-border {
+  border: 1px solid #ced4da; /* Add border to table */
+}
+
+.custom-table-border th,
+.custom-table-border td {
+  border: 1px solid #ced4da; /* Add border to cells */
 }
